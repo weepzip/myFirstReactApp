@@ -1,0 +1,31 @@
+.preloader {
+  display: block;
+  margin: 20px auto;
+  width: 110px;
+  height: 30px;
+  padding: 5px;
+  background-color: rgb(225, 185, 225);
+}
+
+.cube {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: indigo;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: calc(100% - 20px)
+  }
+  to {
+    margin-left: 0;
+  }
+}

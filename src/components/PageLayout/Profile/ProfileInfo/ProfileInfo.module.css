@@ -1,0 +1,56 @@
+.profile_info {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  padding: 5px;
+  background-color: rgb(250, 205, 250);
+  box-shadow: 1px 1px 2px rgb(100, 100, 100);
+}
+
+.image_container {
+  box-sizing: content-box;
+  float: left;
+  margin: 10px;
+}
+
+#image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  box-sizing: border-box;
+  float: left;
+  width: calc(100% - 30px - 160px);
+  margin: 10px;
+}
+
+.name_container {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+.details {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

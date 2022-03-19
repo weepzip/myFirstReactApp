@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import s from './App.module.css';
+import HeaderContainer from './components/Header/HeaderContainer.jsx'
+import PageLayout from './components/PageLayout/PageLayout.jsx';
+import {BrowserRouter} from 'react-router-dom';
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={s.App}>
+      <BrowserRouter>
+        <HeaderContainer 
+          state={props.state}
+        />
+        <PageLayout
+          state={props.state}
+          dispatch={props.dispatch}
+          store={props.store}
+        />
+      </BrowserRouter>
     </div>
   );
 }

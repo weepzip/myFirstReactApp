@@ -1,0 +1,27 @@
+.dialogs_wrap {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+  background-color: rgb(250, 205, 250);
+  box-shadow: 1px 1px 2px rgb(100, 100, 100);
+  display: grid;
+  grid-template-areas: "dialogs messages";
+  grid-template-columns: 4fr 6fr;
+  grid-gap: 5px;
+}
+
+.dialogs {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  border-right: solid 1px indigo;
+  grid-area: dialogs;
+}
+
+.messages_wrap {
+  box-sizing: border-box;
+  float:left;
+  width: 100%;
+  grid-area: messages;
+}

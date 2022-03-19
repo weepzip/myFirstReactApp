@@ -1,0 +1,24 @@
+#page_layout {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  padding: 60px 10px 0 10px;
+  display: grid;
+  grid-template-areas: "sidebar page_body";
+  grid-template-columns: 140px auto;
+  grid-gap: 10px;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  grid-area: sidebar;
+}
+
+.page_body {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  grid-area: page_body;
+}

@@ -1,0 +1,19 @@
+.users_layout {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination_container {
+  align-content: center;
+  height: 20px;
+}
+
+.pagination {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  font-weight: bold;
+}

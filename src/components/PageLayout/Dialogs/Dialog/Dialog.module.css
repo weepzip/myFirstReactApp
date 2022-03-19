@@ -1,0 +1,31 @@
+.dialog {
+  box-sizing: border-box;
+  float: left;
+  width: calc(100% - 10px);
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 2px rgb(50, 50, 50);
+}
+
+.image_container {
+  box-sizing: border-box;
+  float: left;
+  margin-right: 10px;
+}
+
+.image {
+  box-sizing: border-box;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name_container {
+  box-sizing: border-box;
+  float: left;
+  width: calc(100% - 60px);
+  height: 50px;
+}

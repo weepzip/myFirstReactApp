@@ -1,0 +1,30 @@
+.messages {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.new_message {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.message_area {
+  max-width: calc(100% - 60px);
+  min-width: calc(100% - 60px);
+  margin: 0;
+  padding: 0px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 100px;
+}
+
+.send_message {
+  margin-left: 10px;
+  float: right;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+}
